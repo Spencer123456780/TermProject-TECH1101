@@ -1,0 +1,66 @@
+* {
+  margin-left: 1%;
+  margin-right: 1%;
+  color: white;
+  opacity: 90%;
+  font-family: 'EB Garamond';
+}
+
+Body {
+  background-image: url('https://images.unsplash.com/photo-1637088059539-ad62cba57895?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: scroll;
+}
+
+button {
+  background-color: green;
+  font-size: 17px;
+}
+
+#TitlePage {
+  background-color: white;
+  color: black;
+  margin-top: 1%;
+  margin: 0;
+  text-align: center;
+  padding-top: 1%;
+  opacity: 0.8;
+}
+
+#TitlePagePart2 {
+  background-color: white;
+  color: black;
+  margin: 0;
+  text-align: center;
+  padding-bottom: .5%;
+  opacity: 0.8;
+}
+
+#Info{
+  text-align: center;
+}
+
+#Intro{
+  text-align: center;
+}
+
+#ResumeLink{
+  position: absolute;
+  right: 5%;
+  color: red;
+  padding-right: 42px;
+  padding-left: 42px;
+  text-align: center;
+  display: inline-block;
+}
+
+#CSSLink{
+  text-align: left;
+  color: Yellow;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  display: inline-block;
+}
