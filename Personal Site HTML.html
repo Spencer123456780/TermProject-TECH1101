@@ -27,10 +27,10 @@
       <br>
       <div class="Basic">
 
-        <button id="Basic" type="button">Basic:</button>
-        <ul>
-          <strong>Basic:</strong>
-          <p>The basic format for a html website is the boilplate code. It includes but not limited to:</p>
+        <button type="button" onclick="TextBasic()">Basic:</button>
+        <ul id="Basic" style='display: none'>
+          <strong id="Basic" style='display: none'>Basic:</strong>
+          <p id="Basic" style='display: none'>The basic format for a html website is the boilplate code. It includes but not limited to:</p>
           <li>""!DOCTYPE html" This spesifices that the doctype is an html.</li>
           <li>"Html lang= "en" dir= "ltr"" This is the code for the lanuge and the directory.</li>
           <li>"meta charset= "utf-8""</li>
@@ -46,9 +46,9 @@
 
       <div class="Links">
 
-        <button id="Links" type="button">Links:</button>
-        <ul>
-          <strong>Adding a link:</strong>
+        <button type="button" onclick="TextLinks()">Links:</button>
+        <ul id="Links" style='display: none'>
+          <strong id="Links" style='display: none'>Adding a link:</strong>
           <li> "a" "/a". The anchor tag. it allows somthing to be anchored to somthing else.</li>
           <li>"a href="Web address" ". href="" is the address that you are linking to.</li>
           <li>"a href="Web address" " <strong>Name</strong> "/a". The <strong>Name</strong> part inbetween the anchor tag is the name that the link is anchored to.</li>
@@ -58,9 +58,9 @@
         <br>
       <div class="Images">
 
-        <button id="Images" type="button">Images:</button>
-        <ul>
-        <strong>Adding an image: </strong>
+        <button type="button" onclick="TextImages()">Images:</button>
+        <ul id="Images" style='display: none'>
+        <strong id="Images" style='display: none'>Adding an image: </strong>
           <li> "img src= "Location" alt= "Name" ". <strong>img</strong> is the image keyword. <strong>scr=""</strong> is the link. <strong>alt=""</strong> is the text if image dosn't show. </li>
         </ul>
       </div>
@@ -72,9 +72,9 @@
       <br>
       <div class="Line Breakes">
 
-        <button id="Line Breakes" type="button">Line Breakes:</button>
-        <ul>
-          <strong>Line Breakes:</strong>
+        <button type="button" onclick="TextLineBreakes()">Line Breakes:</button>
+        <ul id="Line Breakes" style='display: none'>
+          <strong id="Line Breakes" style='display: none'>Line Breakes:</strong>
           <li>"br". They are used to put space inbetween other parts of the webpage.</li>
         </ul>
       </div>
@@ -82,9 +82,9 @@
 
       <div class="Heading Attributes">
 
-        <button id="Heading Attributes" type="button">Heading Attributes:</button>
-        <ul>
-          <strong>Heading Attributes:</strong>
+        <button type="button" onclick="TextHeadingAttributes()">Heading Attributes:</button>
+        <ul id="Heading Attributes" style='display: none'>
+          <strong id="Heading Attributes" style='display: none'>Heading Attributes:</strong>
           <li>"h1" "/h1". The largest heading attribute.</li>
           <li>"h2" "/h2". The secound largest heading attribute.</li>
           <li>"h3" "/h3". The third largest heading attribute.</li>
@@ -97,9 +97,9 @@
 
       <div class="Paragraphs">
 
-        <button id="Paragraphs" type="button">Paragraphs:</button>
-        <ul>
-          <strong>Paragraphs:</strong>
+        <button type="button" onclick="TextParagraphs()">Paragraphs:</button>
+        <ul id="Paragraphs" style='display: none'>
+          <strong id="Paragraphs" style='display: none'>Paragraphs:</strong>
           <li><strong>"p" "/p".</strong> They are used for puting large ammounts of information into a webpage.</li>
         </ul>
       </div>
@@ -107,9 +107,9 @@
 
       <div class="Comments">
 
-        <button id="Comments" type="button">Comments:</button>
-        <ul>
-          <strong>Comments:</strong>
+        <button type="button" onclick="TextComments()">Comments:</button>
+        <ul id="Comments" style='display: none'>
+          <strong id="Comments" style='display: none'>Comments:</strong>
           <li><strong>"!-- --".</strong> They are made only for the people that are looking at the raw code.</li>
         </ul>
       </div>
@@ -118,10 +118,10 @@
 
       <div class="Horizontal Rule">
 
-        <button type="button">Horizontal Rule:</button>
-        <ul>
-          <strong>Horizontal Rule:</strong>
-          <li><strong>"HR".</strong> This makes a horizontal line across a page.</li>
+        <button type="button" onclick="TextHorizontalRule()">Horizontal Rule:</button>
+        <ul id="HorizontalRule" style='display: none'>
+          <strong id="HorizontalRule" style='display: none'>Horizontal Rule:</strong>
+          <li ><strong>"HR".</strong> This makes a horizontal line across a page.</li>
         </ul>
       </div>
 
@@ -129,10 +129,10 @@
 
       <div class="Styling Words">
 
-        <button type="button">Styling Words:</button>
-        <ul>
-          <strong>Styling Words:</strong>
-          <p>Word styling has a few diffrent properties the include but not limited to:</p>
+        <button type="button" onclick="TextStylingWords()">Styling Words:</button>
+        <ul  id="StylingWords" style='display: none'>
+          <strong  id="StylingWords" style='display: none'>Styling Words:</strong>
+          <p id="StylingWords" style='display: none'>Word styling has a few diffrent properties the include but not limited to:</p>
           <li>"Strong" "/Strong". Makes a word bolded.</li>
           <li>"EM" "/EM". Makes words italicized.</li>
           <li>"Big" "/Big". Makes your font size increase.</li>
@@ -144,10 +144,10 @@
 
       <div class="Lists">
 
-        <button id="Lists" type="button">Lists:</button>
-        <ul>
-          <strong>Lists:</strong>
-          <p>Lists are used to make orderd and unorderd lists. The properties include:</p>
+        <button type="button" onclick="TextLists()">Lists:</button>
+        <ul id="Lists" style='display: none'>
+          <strong id="Lists" style='display: none'>Lists:</strong>
+          <p id="Lists" style='display: none'>Lists are used to make orderd and unorderd lists. The properties include:</p>
           <li>"ul" "/ul". Makes a unorderd list</li>
           <li>"li" "/li". Makes a list item</li>
           <li>"ol" "/ol". Makes an ordred list</li>
@@ -159,10 +159,10 @@
 
       <div class="Tables">
 
-        <button id="Tables" type="button">Tables:</button>
-        <ul>
-          <strong>Tables:</strong>
-          <p>Tables are used to create and display rows and columns of data.</p>
+        <button type="button" onclick="TextTables()">Tables:</button>
+        <ul id="Tables" style='display: none'>
+          <strong id="Tables" style='display: none'>Tables:</strong>
+          <p id="Tables" style='display: none'>Tables are used to create and display rows and columns of data.</p>
           <li>"Table" "/Table". is used for creating a table</li>
           <li>"tr" "/tr". is used for creating a table rows</li>
           <li>"td" "/td". Is the begining of a cell</li>
@@ -173,18 +173,18 @@
 
       <div class="Forms">
 
-        <button id="Forms" type="button">Forms:</button>
-        <ul>
-          <strong>Forms:</strong>
-          <p>Forms are the samething you see when you enter a log in page. They allow things like: </p>
+        <button type="button" onclick="TextForms()">Forms:</button>
+        <ul id="Forms" style='display: none'>
+          <strong id="Forms" style='display: none'>Forms:</strong>
+          <p id="Forms" style='display: none'>Forms are the samething you see when you enter a log in page. They allow things like: </p>
 
-          <strong>Attributes:</strong>
+          <strong id="Forms" style='display: none'>Attributes:</strong>
           <li>Action: Backend scrpit ready to prossess the input data.</li>
           <li>Method="get/post": <strong>"Get"</strong>Pulls data. exe: a search engin query. <strong>"Post"</strong> post sends large amount of data. get just gets information. exe: Uploading a file.</li>
           <li>Enctype: Enctypes data from the browser and then sends the information to the server.</li>
           <br>
 
-          <strong>Form structure:</strong>
+          <strong id="Forms" style='display: none'>Form structure:</strong>
           <li>"form method=postaction="scrpit_url" "/form" "</li>
           <li>"fieldset". A tag used to group together related form elements.</li>
           <li>"legend". A tag to assign a caption to a fieldset.</li>
